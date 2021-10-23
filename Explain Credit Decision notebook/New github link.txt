@@ -2,4 +2,4 @@ Here is the new Github
 https://github.com/sarbaniAi/ExplainableAI
 
 Notebooks are here -
-https://github.com/sarbaniAi/ExplainableAI/tree/main/notebooks
+https://github.com/sarbaniAi/ExplainableAI/notebooks
