@@ -1,0 +1,14 @@
+{
+  "CloudformationStackARN": "arn:aws:cloudformation:us-east-1:396548483691:stack/SC-396548483691-pp-q6ocmq7qhw2cw/e02ebd60-20e2-11ec-8207-0a3dd1db9e63",
+  "SagemakerMode": "Studio",
+  "EcrRepository": "sagemaker-soln-ecd-js-51p2dp",
+  "AwsAccountId": "396548483691",
+  "IamRole": "arn:aws:iam::396548483691:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole",
+  "ContainerBuildProject": "sagemaker-soln-ecd-js-51p2dp-container-build",
+  "S3Bucket": "sagemaker-soln-ecd-js-51p2dp-us-east-1-396548483691",
+  "GlueWorkflow": "sagemaker-soln-ecd-js-51p2dp-workflow",
+  "SolutionPrefix": "sagemaker-soln-ecd-js-51p2dp",
+  "AwsRegion": "us-east-1",
+  "GlueDatabase": "sagemaker-soln-ecd-js-51p2dp-database",
+  "SolutionName": "Explaining-credit-decisions/1.2.0"
+}

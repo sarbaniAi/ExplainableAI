@@ -1,0 +1,110 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "minItems": 20,
+    "maxItems": 20,
+    "items": [
+        {
+            "title": "contact__has_telephone",
+            "type": "boolean",
+            "description": "Customer has a registered telephone number."
+        },
+        {
+            "title": "credit__amount",
+            "type": "integer",
+            "description": "Amount of money requested as part of credit application (in EUR)."
+        },
+        {
+            "title": "credit__coapplicant",
+            "type": "integer",
+            "description": "Co-applicant on credit application."
+        },
+        {
+            "title": "credit__duration",
+            "type": "integer",
+            "description": "Amount of time the credit is requested for (in months)."
+        },
+        {
+            "title": "credit__guarantor",
+            "type": "integer",
+            "description": "Guarantor on credit application."
+        },
+        {
+            "title": "credit__installment_rate",
+            "type": "integer",
+            "description": "Credit installment rate (as a percentage of the customer's disposable income)."
+        },
+        {
+            "title": "credit__purpose",
+            "type": "string",
+            "description": "Customer's reason for requiring credit."
+        },
+        {
+            "title": "employment__duration",
+            "type": "integer",
+            "description": "Amount of time the customer has been employed at their current employer (in years)."
+        },
+        {
+            "title": "employment__permit",
+            "type": "string",
+            "description": "Customer's current work permit type."
+        },
+        {
+            "title": "employment__type",
+            "type": "string",
+            "description": "Customer's current job classification."
+        },
+        {
+            "title": "finance__accounts__checking__balance",
+            "type": "string",
+            "description": "Customer's checking account balance."
+        },
+        {
+            "title": "finance__accounts__savings__balance",
+            "type": "string",
+            "description": "Customer's savings account balance."
+        },
+        {
+            "title": "finance__credits__other_banks",
+            "type": "integer",
+            "description": "Count of credits the customer has at other banks."
+        },
+        {
+            "title": "finance__credits__other_stores",
+            "type": "integer",
+            "description": "Count of credits the customer has at other stores."
+        },
+        {
+            "title": "finance__credits__this_bank",
+            "type": "integer",
+            "description": "Count of credits the customer has at this bank."
+        },
+        {
+            "title": "finance__other_assets",
+            "type": "string",
+            "description": "Customer's most significant asset."
+        },
+        {
+            "title": "finance__repayment_history",
+            "type": "string",
+            "description": "Quality of the customer's repayment history."
+        },
+        {
+            "title": "personal__num_dependents",
+            "type": "integer",
+            "description": "Count of the customer's dependents."
+        },
+        {
+            "title": "residence__duration",
+            "type": "integer",
+            "description": "Amount of time the customer has been at their current residence (in years)."
+        },
+        {
+            "title": "residence__type",
+            "type": "string",
+            "description": "Class of the customer's residence."
+        }
+    ],
+    "title": "Credit Application",
+    "description": "An array of items used to describe a credit application."
+}

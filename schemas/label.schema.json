@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "minItems": 1,
+    "maxItems": 1,
+    "items": [
+        {
+            "title": "credit__default",
+            "type": "boolean",
+            "description": "0 if the customer successfully made credit payments, 1 if the customer defaulted on credit payments."
+        }
+    ],
+    "title": "Credit Application Outcome"
+}
